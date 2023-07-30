@@ -1,64 +1,209 @@
 *{
+    margin: 0px;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100vw ;
+    background-color: white;
+    z-index: 1000;
+}
+header img {
+    width: 268px;
+    height: 33px;
+}
+img { 
+    border: 0;
+}
+a {
+    color: #337ab7;
     text-decoration: none;
-    list-style: none;
+    background-color: transparent;
 }
-#navlist li {
-    display: inline;
-    font-size: 17px;
+.navigation {
+    font-size: 16 px;
     font-weight: 400;
-    line-height: 2em;
-    padding: 1.33em;
-    font-family: Arial, Helvetica, sans-serif;
-
 }
-a:hover{
-    color: #00b39b;
-}
-a{
-    
+#career {
     color: #ababab;
 }
-header{
-    display: flex;
-    padding: 20px;
-    margin: auto;
-    max-width: 1015px;
-    position: relative;
-    justify-content: space-between;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-#smallimg{
-    padding-left: 625px;
-}
-h1{
-    margin: 1em;
-   @font-face {
-    font-family:work-sans
-    src: url();
-   }
-    font-weight: 300;
-    letter-spacing: 3px;
-    text-align: center;
+#about {
     color: #00b39b;
-
+}
+#departments {
+    color: #ababab;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-right: 500px;
 
 }
-#paragraph{
+#logo {
+    width: 40px;
+    height: 40px;
+}
+img {
+    vertical-align: middle;
+    
+}
+#headertxt {
+    color: #00b39b;
+    font-size:50px;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    padding-top: 20px;
+    text-align: left;
+}
+p {
+    display: block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin:0px;
+}
+.paragraph {
+    color: #747474;
+    font-size: 16px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px;
-    margin: auto;
-    position: relative;
-    padding-left: 150px;
-    padding-right: 150px;
-    line-height: 1.75;
-    font-weight: 400;
-    font-size:medium;   
-    color: #747474;
+    padding-left: 260px;
+    padding-right: 280px;
+    width: 100%;
+
 }
-#paragraph2{
-    padding-left: 20px;
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.42857143;
+    background-color: transparent;
+}
+.paragraph1 {
+    padding-right: 30px;
+}
+p {
+    margin:  10px;
+}
+div {
+    display: block;
+}
+.mourab3at {
+
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 3.75px auto 2.5px;
+    color: #fff;
+    font-family: Work Sans, Arial, sans-serif;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+    margin-left: 190px;
+    margin-top: 60px;
+}
+.mouraba3-1 {
+    background-color: #00ccb1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+div {
+    display: block;
+}
+.mourab3at img {
+    width: 25px;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.mouraba3-1 #mtitle1, .mouraba3-2 #mtitle2, .mouraba3-3 #mtitle3 {
+    font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    margin: 0.3px 0;
+    font-family: Work Sans, Arial, sans-serif;
+}
+p {
+    margin: 0 0 10px;
+}
+div {
+    display: block;
+}
+.mouraba3-1 select {
+    background-color: #00ccb1;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+option {
+    font-weight: normal;
+    display: block;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+.mouraba3-2 {
+    background-color: #3d83df;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+.main1 .main2 .main3{
+    box-sizing: border-box;
+}
+div {
+    display: block;
+}
+.mouraba3-2 select {
+    background-color: #3d83df;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
+}
+select {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+.mouraba3-3 {
+    background-color: #1b2734;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 2em 0;
+    justify-content: space-between;
+    height: 345px;
+}
+div {
+    display: block;
+}
+.mouraba3-3 select {
+    background-color: #1b2734;
+    border: none;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    font-style: bold;
 }
